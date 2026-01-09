@@ -11,7 +11,7 @@ if os.path.exists(db_name):
 conn = sqlite3.connect(db_name)
 cursor = conn.cursor()
 
-# 2. Define Structure (Matches your C++ classes)
+# 2. Define Structure
 schema = """
     CREATE TABLE accounts (
         email TEXT PRIMARY KEY,
@@ -43,5 +43,5 @@ schema = """
 """
 
 cursor.executescript(schema)
-print("✅ Database created successfully.")
+print("Database created successfully.")
 conn.close()
