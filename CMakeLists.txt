@@ -3,9 +3,7 @@ project(HospitalSystem)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# 1. THE BUILD LIST
-# You must list EVERY .cpp and .c file here.
-# If you create a new .cpp file later, add it to this list.
+
 add_executable(hospital_app 
     main.cpp 
     sqlite3.c 
