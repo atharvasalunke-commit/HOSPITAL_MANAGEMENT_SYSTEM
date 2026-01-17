@@ -18,5 +18,5 @@ void savereport(int id, const string& name, const string& email, const string& h
                  + name + "', '" + email + "', '" + health_issue + "');";
     
     db.query(sql);
-    cout << "✅ Report ID " << id << " saved to Database.\n";
+    cout << " Report ID " << id << " saved to Database.\n";
 }
