@@ -14,6 +14,5 @@ add_executable(hospital_app
     STAFF.cpp
 )
 
-# 2. THE INCLUDE PATH
-# This tells VS to look in the current folder for .h files
+
 target_include_directories(hospital_app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
